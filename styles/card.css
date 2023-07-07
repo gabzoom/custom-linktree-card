@@ -1,0 +1,26 @@
+.card {
+    background-color: var(--card-bg-color);
+    border-radius: 10%;
+
+    padding: 52px 37px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 92px;
+    padding: 4px;
+    border: 2px solid #896bff;
+    border-radius: 100%;
+    /* transition: none; */
+}
+
+.card h1 {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-size: 43.33px;
+    line-height: 48.75px;
+}

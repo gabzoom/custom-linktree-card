@@ -1,0 +1,13 @@
+@import url('card.css');
+
+:root {
+    --title-color: #ffffff;
+    --text-color: #a8a5ad;
+    --title-font: 'Lexend', sans-serif;
+    --text-font: 'Inter', sans-serif;
+    --card-bg-color: #363543;
+}
+
+body {
+    padding: 17.33px;
+}

@@ -1,0 +1,40 @@
+.card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.profile-picture {
+    width: 95px;
+    padding: 4px;
+    border: 2px solid #896bff;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.title {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-size: 43.33px;
+    line-height: 48.75px;
+}
+
+.text {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    max-width: 375px;
+    margin: auto;
+}
+
+/* .text strong {
+    color: var(--title-color);
+    font-weight: bolder;
+} */
+
+/* .text a {
+    color: #aa94ff;
+    text-decoration: underline;
+} */

@@ -1,4 +1,6 @@
 @import url('card.css');
+@import url('card_header.css');
+@import url('card_body.css');
 
 :root {
     --title-color: #ffffff;
@@ -6,8 +8,16 @@
     --title-font: 'Lexend', sans-serif;
     --text-font: 'Inter', sans-serif;
     --card-bg-color: #363543;
+    --body-bg-color: radial-gradient(
+        104% 68% at 100% 70%,
+        #78ffe7 0%,
+        #6798e0 67%,
+        #745abf 100%
+    );
 }
 
 body {
     padding: 17.33px;
+    text-align: center;
+    background: var(--body-bg-color);
 }

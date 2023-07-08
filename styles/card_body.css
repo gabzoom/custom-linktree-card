@@ -7,10 +7,6 @@
 .socials-list li {
     border: solid 2px;
     border-radius: 12px;
-    padding: 18px 0;
-    max-width: 375px;
-    width: 100%;
-    margin: auto;
 }
 
 .socials-list li:nth-child(1) {
@@ -46,6 +42,11 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+
+    max-width: 375px;
+    width: 100%;
+    padding: 18px 0;
+    margin: auto;
 }
 
 .socials-list a img {
@@ -86,7 +87,7 @@
         column-gap: 12px;
     }
 
-    .socials-list li {
+    .socials-list a {
         width: auto;
         padding: 18px 30px;
         margin: 0;
@@ -105,5 +106,14 @@
         justify-content: center;
         gap: 15px;
         margin: 0 -51px;
+    }
+
+    .socials-list li {
+        transition: 0.2s;
+    }
+
+    .socials-list li:hover {
+        scale: 1.1;
+        background: rgba(255, 255, 255, 0.1);
     }
 }

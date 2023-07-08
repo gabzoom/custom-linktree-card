@@ -77,3 +77,33 @@
     filter: invert(74%) sepia(12%) saturate(4628%) hue-rotate(177deg)
         brightness(101%) contrast(101%);
 }
+
+@media screen and (min-width: 481px) {
+    .socials-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 12px;
+    }
+
+    .socials-list li {
+        width: auto;
+        padding: 18px 30px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .socials-list {
+        justify-content: start;
+        column-gap: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .socials-list {
+        justify-content: center;
+        gap: 15px;
+        margin: 0 -51px;
+    }
+}

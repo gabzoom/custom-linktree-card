@@ -38,3 +38,9 @@ hr {
         margin: 10px -30px;
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .card {
+        scale: 1.2;
+    }
+}

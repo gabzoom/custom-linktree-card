@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     gap: 23px;
+    margin: auto;
 }
 
 hr {
@@ -14,4 +15,26 @@ hr {
     border-top: 2px solid rgba(255, 255, 255, 0.031);
     margin: 10px -25px;
     padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        padding: 48px 42px;
+        max-width: 460px;
+    }
+
+    hr {
+        margin: 10px -42px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        padding: 30px 30px;
+        max-width: 560px;
+    }
+
+    hr {
+        margin: 10px -30px;
+    }
 }

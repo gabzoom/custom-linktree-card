@@ -29,12 +29,39 @@
     margin: auto;
 }
 
-/* .text strong {
-    color: var(--title-color);
-    font-weight: bolder;
-} */
+@media screen and (min-width: 768px) {
+    .card-header {
+        text-align: start;
+    }
 
-/* .text a {
-    color: #aa94ff;
-    text-decoration: underline;
-} */
+    .profile-picture,
+    .text {
+        margin: 0;
+    }
+
+    .text-footer {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .profile-picture {
+        width: 150px;
+    }
+
+    .title {
+        font-size: 51px;
+        line-height: 57px;
+    }
+
+    .text {
+        font-size: 22px;
+        font-weight: 400;
+        max-width: 100%;
+    }
+
+    .text-footer {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

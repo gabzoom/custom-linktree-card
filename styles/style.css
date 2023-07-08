@@ -8,16 +8,34 @@
     --title-font: 'Lexend', sans-serif;
     --text-font: 'Inter', sans-serif;
     --card-bg-color: #363543;
-    --body-bg-color: radial-gradient(
-        104% 68% at 100% 70%,
-        #78ffe7 0%,
-        #6798e0 67%,
-        #745abf 100%
-    );
 }
 
 body {
-    padding: 17.33px;
+    padding: 17px;
     text-align: center;
-    background: var(--body-bg-color);
+    background: linear-gradient(
+        90deg,
+        rgba(110, 0, 255, 1) 0%,
+        rgba(99, 78, 207, 1) 50%,
+        rgba(0, 155, 255, 1) 100%
+    );
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 37px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding: 0;
+    }
+
+    main {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

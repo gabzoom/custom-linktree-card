@@ -1,8 +1,8 @@
 ![Static Badge](https://img.shields.io/badge/STATUS-CONCLUÍDO-4cc71e)
 # Card de links interativo
 Uma página pessoal para exibir e divulgar links úteis sobre mim através de um card interativo. <br>
-O projeto foi desenvolvido utilizando o conceito de Mobile First, que o torna responsivo para diferentes tamanhos de tela. <br>
-Utilizei a biblioteca de JavaScript [vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/) para aplicar o efeito de parallax no card ao interagir com o elemento HTML.
+O projeto foi desenvolvido utilizando o conceito de Mobile First, que o torna responsivo para diferentes tamanhos de telas e dispositivos. <br>
+Utilizei a biblioteca de JavaScript [vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/) para aplicar o efeito de parallax no card ao interagir com o HTML.
 
 ## 🚀 Tecnologias utilizadas
 - ``HTML5``

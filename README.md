@@ -1,16 +1,18 @@
 ![Static Badge](https://img.shields.io/badge/STATUS-CONCLUÍDO-4cc71e)
 # Card de links interativo
-Uma página pessoal para exibir e divulgar links úteis sobre mim através de um card interativo. <br>
-O projeto foi desenvolvido utilizando o conceito de Mobile First, que o torna responsivo para diferentes tamanhos de telas e dispositivos. <br>
+Uma página pessoal para exibir e divulgar links úteis sobre mim através de um card interativo.
+
+O projeto foi desenvolvido utilizando o conceito de Mobile First, que o torna responsivo para diferentes tamanhos de telas e dispositivos.
+
 Utilizei a biblioteca de JavaScript [vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/) para aplicar o efeito de parallax no card ao interagir com o HTML.
 
-## 🚀 Tecnologias utilizadas
+## 💻 Tecnologias utilizadas
 - ``HTML5``
 - ``CSS3``
 - ``JavaScript``
 - ``vanilla-tilt.js``
 
-## 💻 Demonstração
+## 🚀 Demonstração
 ### <a href="https://gabzoom.vercel.app/" target="_blank">Clique aqui e acesse o projeto no ambiente de produção</a>
 <img src="assets/screenshot.png">
 

@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     gap: 23px;
+    max-width: 420px;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 15px 35px 10px;
 }
